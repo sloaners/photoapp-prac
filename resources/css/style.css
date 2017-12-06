@@ -1,0 +1,109 @@
+/* General Declarations */
+html {
+    font-size: 16px;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* Header Bar */
+
+header {
+    background-color: #26292e;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-icon {
+    display: flex;
+    align-items: flex-start;
+}
+
+#dot {
+    margin-inline-start: 3px;
+}
+
+#na {
+    visibility: hidden;
+}
+
+/* Nav Bar */
+
+nav {
+    background-color: #26292e;
+    color: white;
+    justify-content: space-around;
+}
+
+.nav {
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.nav:hover {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #695a96;
+    opacity: 1;
+}
+
+/* Profile Bar */
+
+.status-bar {
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #1e2126;
+}
+
+.btn {
+    background: #967adc;
+    background-image: -webkit-linear-gradient(top, #967adc, #967adc);
+    background-image: -moz-linear-gradient(top, #967adc, #967adc);
+    background-image: -ms-linear-gradient(top, #967adc, #967adc);
+    background-image: -o-linear-gradient(top, #967adc, #967adc);
+    background-image: linear-gradient(to bottom, #967adc, #967adc);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #695a96;
+    text-decoration: none;
+  }
+
+  .name, 
+  .follow {
+      align-items: center;
+  }
+
+  .name h1,
+  .follow h2 {
+      margin: 10px;
+  }
+
+  .follow h2 {
+      opacity: 0.5;
+  }
+
+  .follow h2:hover {
+    opacity: 1;
+}
+
+/* Albums */
+
+.album1 {
+    background-image: url('../images/layer7.png');
+    height: 432px;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
